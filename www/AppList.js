@@ -1,4 +1,4 @@
-﻿var cordova = require('cordova');
+var cordova = require('cordova');
 
 var AppList = function() {};
 
@@ -9,5 +9,5 @@ AppList.prototype.getAppStats = function (success, error,arg1,arg2,arg3) {
     cordova.exec(success, error, 'AppList', 'getAppStats', [arg1,arg2,arg3]);
 };
 
-var appList = new AppList();
-module.exports = appList;
+var AppList = new AppList();
+module.exports = AppList;

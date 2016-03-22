@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.lovearthstudio.applist" version="0.0.1">
   <name>Cordova Plugin AppList</name>
   <description>Get installed app list and  app stats</description>
